@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarjetes Grupos Rock</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+        }
+        body{
+            height: 100%;
+            background: linear-gradient(35deg, blue, pink);
+        }
+        .contenidor{
+            display: flex;
+            border: 5px solid white;
+            padding: 2em;
+            justify-content: center;
+        }
+        .grup{
+            border-radius: 20px;
+            width: 30em;
+            margin: 1em;
+            background: rgba(240, 240, 240, 0.8);
+        }
+        .cont_img{
+            border-radius: 20px 20px 0 0;
+            height: 300px;
+            background: purple;
+        }
+        .cont_img img{
+            filter: brightness(100%);
+            mix-blend-mode:lighten;
+            border-radius:20px 20px 0 0;
+            overflow: hidden;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+        header{
+            display:flex;
+            align-items: baseline;
+            justify-content: space-between;
+            color: purple;
+            margin: 0.5em 1em;
+            padding: 0 0 0.2em 0;
+            border-bottom: 1px solid purple;
+        }
+        h3{
+            font-weight: 600;
+            font-style: normal;
+        }
+        h4{
+            font-weight: 500;
+            font-style: italic;
+        }
+        .cont_txt{
+            margin: 1em 1em 0.5em 1em;
+            color: purple;
+            text-align: justify;
+            hyphens: auto;
+            font-size: 0.9em;
+            line-height: 1.4em;
+            flex-grow: 4;
+        }
+        .pie_foto{
+            background: purple;
+            border-radius: 0 0 20px 20px;
+            color:white;
+            font-style: italic;
+            font-size: 0.9em;
+            margin: 1em 1em 0.5em 1em;
+            flex-grow: 8;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="contenidor">
+        <div class="grup">
+            <div class="cont_img">
+                <img src="img/Paula%20Scher.jpg" alt="Paula Scher">
+            </div>
+            <header>
+                <h3>Paula Scher</h3>
+                <h4>6 de octubre de 1948</h4>
+            </header>
+            <div class="cont_txt">
+                <p>Estudió Bellas Artes en Pensilvania, en la escuela de arte Tyler de Elkins Park. Allí fue alumna de Seymour Chwast, con quien se casó en 1973. Posteriormente se trasladó a Nueva York y se inició en el mundo profesional encargándose de la maquetación de la sección infantil de la editorial Random House.Su siguiente contrato vino dado por la compañía CBS Records, donde fue contratada para trabajar en su departamento de publicidad y promociones, y de ahí pasó a trabajar en Atlantic Records, ejerciendo como directora de arte. Un año después de su marcha, CBS volvió a contratarla también como directora de arte para que se encargara del departamento de portadas.</p>
+            </div>
+            <div class="pie_foto">
+                <p>Permaneció durante ocho años, diseñando algunas portadas que se han convertido en iconos de la cultura musical.</p>
+            </div>
+        </div>
+        <div class="grup">
+            <div class="cont_img">
+                <img src="img/Storm%20Thorgerson%202.jpg" alt="Storm Thorgerson">
+            </div>
+            <header>
+                <h3>Storm Thorgerson</h3>
+                <h4>28 de febrero de 1944 – 18 de abril de 2013</h4>
+            </header>
+            <div class="cont_txt">
+                <p>Fue un diseñador gráfico británico, reconocido por ser miembro del grupo de diseño artístico Hipgnosis, en el que diseñó algunas de las más conocidas cubiertas de discos y singles. Sus diseños más conocidos fueron los que realizó para Pink Floyd y, en particular, la realizada para su álbum The Dark Side of the Moon. También trabajó con otros grupos como Led Zeppelin, Black Sabbath, Scorpions, Genesis, Europe, Dream Theater, The Cranberries, The Mars Volta, Muse y Biffy Clyro. La mayor parte de sus diseños tienen elementos propios del surrealismo, extrayendo elementos de su contexto habitual, deformando realidades a través de montajes visuales o ubicándolos en inmensos espacios oníricos.</p>
+            </div>
+            <div class="pie_foto">
+                <p>Estas escenas impactantes y directas fueron especialmente valoradas en el negocio discográfico lo que permitió que, a través de Hipgnosis o bien individualmente, Thorgerson diseñara las portadas de algunos de los más importantes trabajos discográficos desde los años 60 hasta nuestros días.</p>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
